@@ -1,0 +1,64 @@
+<html>
+<head>
+  <!-- Link the style sheet here -->
+    <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+   <style>
+    .business-card {
+      max-width: 350px;
+      margin: 20px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+    }
+    .logo img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+  <body>
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="business-card text-center">
+    <div class="logo mb-3">
+      <img src="/static/person.png" alt="Car Dealership Logo">
+    </div>
+    <h4 class="fw-bold">Speedster Motors</h4>
+    <p class="text-muted">Your Dream Car Awaits</p>
+    
+    <div class="mb-3">
+      <p><strong>Address:</strong> 1234 Auto Ave, Motor City, USA</p>
+      <p><strong>Phone:</strong> (555) 123-4567</p>
+      <p><strong>Email:</strong> info@speedstermotors.com</p>
+      <p><strong>Website:</strong> <a href="#">www.speedstermotors.com</a></p>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
