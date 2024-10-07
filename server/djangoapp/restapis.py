@@ -31,8 +31,8 @@ def get_request(endpoint, **kwargs):
         print(f"Network exception occurred: {str(e)}")
         return {"status": "error", "message": "Network exception occurred"}
 # Add code for get requests to back end
-
 # def analyze_review_sentiments(text):
+
 
 def analyze_review_sentiments(text):
 
@@ -49,6 +49,7 @@ def analyze_review_sentiments(text):
 
 # def post_review(data_dict):
 # Add code for posting review
+
 
 def post_review(data_dict):
 
