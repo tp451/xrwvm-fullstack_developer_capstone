@@ -9,7 +9,6 @@ from django.core.validators import MaxValueValidator, MinValueValidator
 
 class CarMake(models.Model):
 
-
     name = models.CharField(max_length=100)
     description = models.TextField()
     # Other fields as needed
@@ -17,8 +16,8 @@ class CarMake(models.Model):
     def __str__(self):
         return self.name  # Return the name as the string representation
 
-class CarModel(models.Model):
 
+class CarModel(models.Model):
 
     car_make = models.ForeignKey(
         CarMake,
